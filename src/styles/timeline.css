@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+
+  font-family:
+    "Poppins",
+    "Noto Sans SC",
+    sans-serif;
+
+  background: #F5F7F2;
+
+  color: #2F3E34;
+}
+
+.timeline-page {
+  min-height: 100vh;
+
+  padding:
+    120px 24px 120px 24px;
+
+  background:
+    linear-gradient(
+      180deg,
+      #F7F9F4 0%,
+      #EEF4ED 100%
+    );
+}
+
+.timeline-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.timeline-header h1 {
+  font-size: 48px;
+  color: #2F3E34;
+  margin-bottom: 16px;
+}
+
+.timeline-header p {
+  color: #5C6B63;
+  font-size: 18px;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-container::before {
+  content: "";
+
+  position: absolute;
+
+  left: 18px;
+  top: 0;
+
+  width: 2px;
+  height: 100%;
+
+  background:
+    linear-gradient(
+      180deg,
+      #D8E2DC 0%,
+      #B7D3C0 100%
+    );
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 80px;
+}
+
+.timeline-dot {
+  position: absolute;
+
+  left: 8px;
+  top: 10px;
+
+  width: 22px;
+  height: 22px;
+
+  border-radius: 50%;
+
+  background: #A8D5BA;
+
+  border: 4px solid #F5F7F2;
+
+  box-shadow:
+    0 0 0 4px rgba(168,213,186,0.2);
+}
+
+.timeline-content {
+  background:
+    rgba(255,255,255,0.72);
+
+  backdrop-filter: blur(12px);
+
+  border-radius: 28px;
+
+  padding: 32px;
+
+  border:
+    1px solid rgba(255,255,255,0.4);
+
+  box-shadow:
+    0 8px 30px rgba(0,0,0,0.04);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.timeline-date {
+  font-size: 14px;
+  color: #7A8B83;
+}
+.timeline-content h2 {
+  margin-top: 12px;
+  margin-bottom: 18px;
+
+  font-size: 28px;
+  font-weight: 600;
+
+  color: #2F3E34;
+
+  letter-spacing: 0.5px;
+}
+
+.timeline-content p {
+  line-height: 2;
+
+  color: #5B675F;
+
+  font-size: 16px;
+
+  font-weight: 400;
+}
+
+.timeline-image {
+  width: 100%;
+
+  border-radius: 18px;
+
+  margin-top: 20px;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.4s ease;
+}
+.timeline-image:hover {
+  transform: scale(1.02);
+}
+.timeline-content:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 12px 40px rgba(0,0,0,0.06);
+}
