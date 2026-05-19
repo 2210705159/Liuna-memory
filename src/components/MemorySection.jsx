@@ -15,7 +15,7 @@ const MemorySection = ({ item }) => {
 
     lastTimeRef.current = now;
 
-    const audio = new Audio("/music/click.mp3");
+    const audio = new Audio("https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/music/click.mp3");
     audio.volume = 0.6;
     audio.play();
   };

@@ -1,7 +1,7 @@
 const memoryData = [
 
   {
-    video: "/videos/bg.mp4",
+    video: "https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/videos/bg.mp4",
 
     time: "2022 → 2026",
 
@@ -19,7 +19,7 @@ const memoryData = [
   },
 
   {
-    image: "/images/start.jpg",
+    image: "https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/images/start.jpg",
 
     text: "实验室的灯亮到了凌晨。",
 
@@ -27,7 +27,7 @@ const memoryData = [
   },
 
   {
-    image: "/images/robot.png",
+    image: "https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/images/robot.png",
 
     title: "ROS终于跑通了",
 
@@ -37,7 +37,7 @@ const memoryData = [
   },
 
   {
-    image: "/images/ill.jpg",
+    image: "https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/images/ill.jpg",
 
     title: "生病了",
 

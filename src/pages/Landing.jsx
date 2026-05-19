@@ -14,7 +14,7 @@ export default function Landing() {
         playsInline
       >
         <source
-          src="/videos/bg.mp4"
+          src="https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/videos/bg.mp4"
           type="video/mp4"
         />
       </video>
