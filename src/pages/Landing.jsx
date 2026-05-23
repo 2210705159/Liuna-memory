@@ -14,7 +14,7 @@ export default function Landing() {
         playsInline
       >
         <source
-          src="https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/videos/bg.mp4"
+          src="https://www.bilibili.com/video/BV1otLq6kEXP/?spm_id_from=333.1387.homepage.video_card.click"
           type="video/mp4"
         />
       </video>

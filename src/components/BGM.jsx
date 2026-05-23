@@ -60,7 +60,7 @@ const BGM = () => {
     <>
       <audio
         ref={audioRef}
-        src="https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/music/bg.mp3"
+        src="https://liuna-memory.oss-cn-beijing.aliyuncs.com/music/bg.mp3"
         loop
         preload="auto"
       />

@@ -15,7 +15,7 @@ const MemorySection = ({ item }) => {
 
     lastTimeRef.current = now;
 
-    const audio = new Audio("https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/music/click.mp3");
+    const audio = new Audio("https://liuna-memory.oss-cn-beijing.aliyuncs.com/music/click.mp3");
     audio.volume = 0.6;
     audio.play();
   };
@@ -38,7 +38,7 @@ const MemorySection = ({ item }) => {
   return (
     <>
       {/* 🌸 主内容 */}
-      <section className="memory-section">
+      <section className="memory-section section">
 
         <div
           ref={ref}

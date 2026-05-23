@@ -22,7 +22,7 @@ const MemoryFlow = () => {
       playsInline
     >
       <source
-        src="https://gzyyqxuuzfhrsvushisi.supabase.co/storage/v1/object/public/memory/videos/bg.mp4"
+        src="https://liuna-memory.oss-cn-beijing.aliyuncs.com/videos/bg.mp4"
         type="video/mp4"
       />
     </video>
