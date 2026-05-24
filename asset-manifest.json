@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e97a89c1.css",
+    "main.js": "/static/js/main.e3efc6bb.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "index.html": "/index.html",
+    "main.e97a89c1.css.map": "/static/css/main.e97a89c1.css.map",
+    "main.e3efc6bb.js.map": "/static/js/main.e3efc6bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e97a89c1.css",
+    "static/js/main.e3efc6bb.js"
+  ]
+}
