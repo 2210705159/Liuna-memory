@@ -10,3 +10,4 @@ export const supabase = createClient(
   supabaseUrl,
   supabaseKey
 );
+//this is supabase messages

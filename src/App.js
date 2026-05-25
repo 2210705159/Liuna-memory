@@ -16,6 +16,7 @@ import BGM from "./components/BGM";
 import MessageBoard from "./components/MessageBoard";
 import LeaveMessageButton from "./components/LeaveMessageButton";
 // import StoryController from "./components/StoryController";
+//现在用的留言板是supabase的留言板
 function App() {
   return (
     <>

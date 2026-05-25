@@ -118,3 +118,4 @@ const MessageBoard = () => {
 };
 
 export default MessageBoard;
+//this is supabase messages
