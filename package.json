@@ -1,9 +1,10 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "homepage": ".",
+  "name": "ln-story",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
     "@supabase/supabase-js": "^2.106.1",
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
@@ -18,14 +19,13 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
-    "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
   },
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
@@ -53,7 +53,6 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "dotenv": "^8.2.0",
     "prettier": "^2.3.1"
   }
 }

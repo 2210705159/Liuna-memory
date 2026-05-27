@@ -497,13 +497,6 @@ const memoryData = [
   },
 
   {
-    time:"2026.2.20",
-    image:"https://liuna-memory.oss-cn-beijing.aliyuncs.com/images/64-2026-2-20.jpg",
-    title:"继陈醋可乐外又解锁一个猎奇料理——陈醋冰淇淋",
-    align: "center"
-  },
-
-  {
     time:"2026.2.24",
     image:"https://liuna-memory.oss-cn-beijing.aliyuncs.com/images/65-2026-2-24.jpg",
     title:"麻酱火锅，好吃",
@@ -525,13 +518,13 @@ const memoryData = [
   },
 
   {
-    time:"2025.4.13",
+    time:"2026.4.13",
     text:"这个时候，我以为我论文已经结束了,没想到只是我以为。另外，龙兴古镇有家串串超级无敌好吃！！",
     align: "center"
   },
 
   {
-    time:"2025.4.29",
+    time:"2026.4.29",
     image:"https://liuna-memory.oss-cn-beijing.aliyuncs.com/images/69-2026-4-29.jpg",
     title:"一家很有生活的药店老板的鱼缸",
     text:"这家火锅真的很好吃！",
@@ -539,7 +532,7 @@ const memoryData = [
   },
 
   {
-    time:"2025.5.2",
+    time:"2026.5.2",
     image:"https://liuna-memory.oss-cn-beijing.aliyuncs.com/images/70-2026-5-2.jpg",
     title:"计划赶不上变化",
     text:"放假当天晚上才被告知论文需要修改，半夜两点半回宿舍睡觉，早上九点爬起来继续改",
@@ -547,14 +540,14 @@ const memoryData = [
   },
 
   {
-    time:"2025.5.8",
+    time:"2026.5.8",
     image:"https://liuna-memory.oss-cn-beijing.aliyuncs.com/images/71-2026-5-8.jpg",
     title:"生病了￣へ￣",
     align: "center"
   },
 
   {
-    time:"2025.5.14",
+    time:"2026.5.14",
     image:"https://liuna-memory.oss-cn-beijing.aliyuncs.com/images/72-2026-5-14.jpg",
     title:"15号下午答辩，中午拍合照",
     text:"前一天晚上在研究这个帽子怎么戴体面一点，结果第二天因为答辩也没拍这个衣服的照片",
@@ -562,9 +555,17 @@ const memoryData = [
   },
 
   {
-    time:"2025.5.19",
+    time:"2026.5.19",
     title:"(￣▽￣ = ￣︿￣)",
     text:"计划好出去吃饭，结果马上到吃饭的地方了，碰到个人，被迫和不想一起吃饭的人吃了个不想吃的饭（在这偷偷说他应该不会知道）",
+    align: "center"
+  },
+
+  {
+    time:"2026.5.26",
+    image:"https://liuna-memory.oss-cn-beijing.aliyuncs.com/images/73-2026-5-26.jpg",
+    title:"想出这个种花方法的人简直是个天才",
+    text:"这是一个按压泵式的洗洁精的瓶子从侧面切开吊起来，里面种花。我当时记得拍了一个侧面的照片，但是找不到了（｀へ´）",
     align: "center"
   },
 
